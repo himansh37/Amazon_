@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+ body {
+    overflow-x: hidden;
+} 
+
+#nav{
+
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+.nav-logo{
+    height: 45px;
+    width: 85px;
+    object-fit: cover;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.location{
+    display: flex;
+}
+.fa-magnifying-glass{
+    align-self: center;
+    text-align: center;
+    width: 30px;
+    background-color: orange;
+}
+.nav-add>p{
+    padding-left: 14px;
+}
+.location>p{
+    padding-left: 3px;
+}
+#select{
+    color: #000000;
+    padding: 2px;
+}
+.search{
+    height: 60%;
+    display: flex;
+    background-color: orange;   
+}
+#textbox{
+    width: 500px;
+}
+.upper{
+    font-size: 0.8rem;
+}
+.lower{
+    font-weight: bold;
+}
+.cart span{
+font-size: 0.7rem;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.nav-deals{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgba(69, 67, 67, 0.675);
+}
+.deals{
+ width:45% ;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.deals i{
+    align-self: center;
+}
+.shopdeal  p{
+    margin-right: 1.5rem;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.main{
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+    background-size: contain;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.quote{
+    width: 90%;
+    background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.quote>p{
+    color: black;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: white;
+    height: 300px;
+    width: 22%;
+    margin-bottom: 20px;
+    padding: 13px;
+}
+.topp{
+    margin-top: 20px;
+}
+.item h2{
+    color: black;
+    margin-bottom: 10px;
+}
+.item a{
+    text-decoration: none;
+}
+.item p{
+    color: cadetblue;
+    margin-top: 10px;
+
+}
+.pro_img{
+    height: 175px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2022/BTS/Fuji_dash_BTS_2X._SY608_CB630084689_.jpg");
+    
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 7vh;
+    background-color: #485769;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+.about{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+}
+.abouts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.abouts p{
+    color: rgba(255, 255, 255, 0.515);
+    font-size: 0.85rem;
+
+}
+.abouts h3,p{
+    margin: 3px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+.credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 12vh;
+    background-color: #232F3E;   
+}
+hr{
+    height:0.3vh ;
+    width: 100vw;
+    background-color: #485769;
+    border: 0;
+}
+.credit-img{
+    background-image: url("../deadpool_image_shadow/pngegg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 85px;    
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #000000;
+}
+.copylink a{
+    text-decoration: none;
+    margin: 4px;
+    color: #ffffffa3;
+
+}
+.copylink p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #ffffffa3;
+}
